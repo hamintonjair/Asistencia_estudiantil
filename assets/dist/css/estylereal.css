@@ -1,0 +1,319 @@
+.headerRegister,
+.header-primary {
+    background: #3975b9;
+    color: #FFF;
+}
+
+.headerUpdate {
+    background: #009688;
+    color: #FFF;
+}
+
+.centered {
+    text-align: center;
+}
+
+#marcar {
+    text-align: center;
+}
+
+
+/* Estilos para las notas */
+
+.notas-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notas-lista li {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(7, 6, 6);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.notas {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(7, 6, 6);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+
+/* Agrega estilos específicos para cada color */
+
+.notas-lista li[style*="background-color: red"] {
+    background-color: red;
+}
+
+.notas-lista li[style*="background-color: blue"] {
+    background-color: blue;
+}
+
+.notas-lista li[style*="background-color: green"] {
+    background-color: green;
+}
+
+.notas-lista li[style*="background-color: orange"] {
+    background-color: orange;
+}
+
+.notas-lista li[style*="background-color: yellow"] {
+    background-color: yellow;
+}
+
+.notas-lista li[style*="background-color: purple"] {
+    background-color: purple;
+}
+
+.notas-lista li[style*="background-color: pink"] {
+    background-color: pink;
+}
+
+.notas-lista li[style*="background-color: green"] {
+    background-color: gray;
+}
+
+.notas-lista li[style*="background-color: green"] {
+    background-color: olive;
+}
+
+.notas-lista li[style*="background-color: green"] {
+    background-color: salmon;
+}
+
+.notas-lista li[style*="background-color: green"] {
+    background-color: violet;
+}
+
+.notas-lista li[style*="background-color: cian"] {
+    background-color: cyan;
+}
+
+.notas-lista li[style*="background-color: magenta"] {
+    background-color: magenta;
+}
+
+.notas-lista li[style*="background-color: silver"] {
+    background-color: silver;
+}
+
+.notas-lista li[style*="background-color: maroon"] {
+    background-color: maroon;
+}
+
+.notas-lista li[style*="background-color: gold"] {
+    background-color: gold;
+}
+
+.contenido-nota {
+    height: 0;
+    color: rgb(253, 250, 250);
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+.nota {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(7, 6, 6);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+
+
+/* Agrega estilos específicos para cada color */
+
+.nota.red {
+    background-color: red;
+}
+
+.nota.blue {
+    background-color: blue;
+}
+
+.nota.green {
+    background-color: green;
+}
+
+.nota.orange {
+    background-color: orange;
+}
+
+.nota.yellow {
+    background-color: yellow;
+}
+
+.nota.purple {
+    background-color: purple;
+}
+
+.nota.pink {
+    background-color: pink;
+}
+
+.nota.green {
+    background-color: gray;
+}
+
+.nota.green {
+    background-color: olive;
+}
+
+.nota.green {
+    background-color: salmon;
+}
+
+.nota.green {
+    background-color: violet;
+}
+
+.nota.cyan {
+    background-color: cyan;
+}
+
+.nota.magenta {
+    background-color: magenta;
+}
+
+.nota.silver {
+    background-color: silver;
+}
+
+.nota.maroon {
+    background-color: maroon;
+}
+
+.nota.gold {
+    background-color: gold;
+}
+
+.contenido {
+    display: none;
+    color: rgb(253, 250, 250);
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.acciones-nota {
+    text-align: right;
+}
+
+.btn-eliminar {
+    background-color: rgb(223, 89, 11);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px, 60px;
+}
+
+
+/*calendario*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.current-date {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+/* Estilo para las celdas de los festivos */
+
+.festivo {
+    background-color: #ec0a0a;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+/* Estilos para el indicador de carga */
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
